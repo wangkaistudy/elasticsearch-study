@@ -1,0 +1,41 @@
+server.sh
+HELP.md
+target/
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.ipr
+*.crm-main.iml
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+.mvn/
+mvnw
+mvnw.cmd
+/logs/
+/crm.iml
+logs/*
+
+*.iml
+
