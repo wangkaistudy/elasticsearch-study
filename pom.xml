@@ -12,6 +12,7 @@
 
     <modules>
         <module>elasticsearch-rest-low-level-clien</module>
+        <module>elasticsearch-rest-high-level-client</module>
     </modules>
 
 
@@ -37,6 +38,11 @@
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
                 <artifactId>elasticsearch-rest-client</artifactId>
+                <version>6.8.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
                 <version>6.8.6</version>
             </dependency>
         </dependencies>
