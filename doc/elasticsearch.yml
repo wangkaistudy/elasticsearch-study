@@ -1,0 +1,11 @@
+cluster.name: es-itcast-cluster
+node.name: node00
+node.master: true
+node.data: true
+network.host: 0.0.0.0
+http.port: 9200
+transport.tcp.port: 9300
+discovery.zen.ping.unicast.hosts: ["10.20.18.64:9300","10.20.18.64:9301","10.20.18.64:9302"]
+discovery.zen.minimum_master_nodes: 2
+http.cors.enabled: true
+http.cors.allow-origin: "*"
